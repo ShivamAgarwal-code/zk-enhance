@@ -13,6 +13,7 @@ const contract = new web3.eth.Contract(contractABI, contractAddress);
 const player1State =  12259964418271227259165020387867311922165661543050510336n;
 const player2State = 49041447421489859511525162441559008579159965201382506496n;
 const totalSteps = 20;
+const additionSteps=50;
 
 // Call the emitGameState function
 async function callEmitGameState() {
