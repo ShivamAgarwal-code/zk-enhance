@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import './PvP.css';
 import { Button, message, Input,  Modal } from 'antd';
