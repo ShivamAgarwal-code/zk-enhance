@@ -20,7 +20,7 @@ async function uploadDigitalFileToIPFS() {
     };
 
     const res = await axios(config);
-
+    console.log(data);
     console.log(res.data);
 }
 
