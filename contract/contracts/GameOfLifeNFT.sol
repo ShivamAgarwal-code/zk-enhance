@@ -14,6 +14,7 @@ contract GameOfLifeNFT is ERC721URIStorage, Ownable {
     function mintNFT(address recipient, string memory tokenURI)
         public
         onlyOwner
+        address
         returns (uint256)
     {
         _tokenIds.increment();
