@@ -7,7 +7,7 @@ contract InitialParametersEmitter {
 
     // Function to trigger the event and pass initial states and steps information
     function emitGameState(uint256 player1, uint256 player2, uint256 steps) external {
-        // Trigger the event
+        // Trigger the event for the function
         emit GameStateEmitted(player1, player2, steps);
     }
 }
